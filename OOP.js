@@ -21,7 +21,7 @@
     //     return `${this.firstName} ${this.lastName}`;
     // }
 
-    // Using classes which are part of ES6
+    // Using classes which are part of ES6 AKA syntactic sugar
     class Person {
         constructor(firstName, lastName, dob) { // <-- using constructor method to create the constructor. Still passing in parameters
             this.firstName = firstName;
