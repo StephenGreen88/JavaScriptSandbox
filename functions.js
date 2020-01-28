@@ -33,3 +33,6 @@ const diffNums = (num1, num2) => num1 - num2;
 // Arrow functions <-- Another way to use them with only one parameter
 const addingNums = (num1) => num1 + 10;
     console.log(addingNums(10));
+
+// Using Arrow functions with forEach
+todos.forEach((todos) => console.log(todos));
